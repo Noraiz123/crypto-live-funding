@@ -1,10 +1,9 @@
+import React from 'react';
 import './App.css';
 import LiveFunding from './components/LiveFunding';
 
 function App() {
-  return (
-    <LiveFunding/>
-  );
+  return <LiveFunding />;
 }
 
 export default App;

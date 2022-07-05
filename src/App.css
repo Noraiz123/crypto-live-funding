@@ -1,0 +1,72 @@
+.main-title {
+  color: white;
+  margin-top: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.funding-table {
+  margin: 50px auto;
+  width: 80%;
+  height: 600px;
+  overflow-y: auto;
+  background-color: #17171a;
+}
+
+.funding-table table {
+  width: 100%;
+}
+
+.table-head {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #17171a;
+}
+
+.funding-table th,
+td {
+  color: white;
+  border-bottom: 1px solid rgb(34, 37, 49);
+  padding: 20px 0;
+}
+
+.funding-table th:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.funding-table td {
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(87, 87, 87);
+}
+
+.sortIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  margin-bottom: auto;
+}
+
+.sortIcons .fa-sort-up,
+.fa-sort-down {
+  height: 5px;
+}
+
+.sort-grey {
+  color: #949494;
+}
