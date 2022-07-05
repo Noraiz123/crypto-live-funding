@@ -1,12 +1,9 @@
+import React from 'react';
 import './App.css';
 import LiveFunding from './components/LiveFunding';
 
 function App() {
-  return (
-    <div className='main-bg'>
-    <LiveFunding/>
-    </div>
-  );
+  return <LiveFunding />;
 }
 
 export default App;
